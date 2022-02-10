@@ -1,0 +1,230 @@
+@font-face {
+    font-family:"MullerBold";
+    src:url("../Fonts/MullerBold.ttf")format("truetype");
+}
+@font-face {
+    font-family:"YesevaOne";
+    src:url("../Fonts/Yeseva One.ttf")format("truetype");
+}
+@font-face {
+    font-family:"MullerRegular";
+    src:url("../Fonts/MullerRegular.ttf")format("truetype");
+}
+@font-face {
+    font-family:"MullerMedium";
+    src:url("../Fonts/MullerMedium.ttf")format("truetype");
+}
+@font-face {
+    font-family:"MullerMediumItalic";
+    src:url("../Fonts/MullerRegularItalic.ttf")format("truetype");
+}
+body{
+    margin:0;
+}
+#header-one {
+    background: #ffffff;
+    border-bottom:1px solid rgb(235, 225, 207);
+}
+#logo-container {
+    padding: 50px 0 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+}
+a.logo{
+    text-decoration: none;
+}
+div.logo-one {
+    font-size: 30px;
+    font-family:"YesevaOne",sans-serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    line-height: 1.833;
+}
+div.logo-two {
+    font-size: 11px;
+    font-family: "MullerRegular",sans-serif;
+    color: rgb(153, 110, 28);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+div#header-menu-container{
+    max-width: 1200px;
+    padding: 30px 0 30px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+div#header-menu{
+    margin-left: 40px;
+}
+div#header-menu a:hover {
+    color: #e6a936;
+}
+
+div#header-menu a {
+    font-size: 12px;
+    font-family: "MullerMedium", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-right: 50px;
+    text-decoration: none;
+}
+diV#image {
+    background-image: url("../images/analisebenevides.png");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+div#dream-container{
+    padding: 130px 0 130px 0;
+    background: #ffffff;
+    font-size: 0;
+}
+div#dream {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+h1{
+    font-size: 45px;
+    font-family: "YesevaOne",sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    padding-bottom: 45px;
+    max-width: 575px;
+    font-weight: normal;
+    margin: 0;
+}
+div#do {
+    font-size: 15px;
+    font-family: "MullerRegular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    max-width: 490px;
+    margin-bottom: 10px;
+}
+div#tetra {
+    max-width: 630px;
+}
+div.text {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-right: 35px;
+}
+div.text i:hover {
+    color: #89550a;
+}
+div.tetra-header {
+    font-size: 18px;
+    font-family: "MullerBold",sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.111;
+    margin-bottom: 15px;
+
+}
+div.tetra-text {
+    font-size: 15px;
+    font-family: "MullerRegular", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.333;
+    max-width: 280px;
+}
+div#dream-content {
+    display:inline-block;
+    vertical-align: bottom;
+}
+
+div#flowers {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 0;
+    margin-left: -8px;
+}
+div#flowers :first-child {
+    margin-right: 14px;
+}
+i.fa-star {
+    margin-right: 11px;
+    color:#dc9229;
+    font-size: 21px;
+}
+#happy{
+    margin: 0;
+    background: #faf7f2;
+}
+#happy-container{
+    padding:120px 0 80px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+#happy-container h3{
+    font-size: 45px;
+    font-family: "YesevaOne", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 1.222;
+    margin: 0;
+}
+
+.happy-images{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 65px;
+    margin-right: 24px;
+}
+div#images-block :last-child {
+    margin-right:0 ;
+}
+div.names {
+    font-size: 18px;
+    font-family: "MullerMediumItalic", sans-serif;
+    color: rgb(197, 182, 152);
+    line-height: 1.111;
+    margin-top: 20px;
+}
+#footer{
+    background: #f1d2bd;
+    margin: 0;
+}
+#footer-container {
+    padding:25px 0 25px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#end{
+    display: inline-block;
+    vertical-align: middle;
+}
+#footer-container #icon{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 326px;
+}
+#footer-container #icon svg path  {
+    fill: rgb(153, 110, 28);
+}
+#footer-container #icon svg {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+#footer-container #icon svg:hover path  {
+    fill: #684606;
+}
+
+
+div#end .logo {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 288px;
+}
+div#end span {
+    font-size: 11px;
+    font-family: "MullerMediumItalic", sans-serif;
+    color: rgb(153, 110, 28);
+    line-height: 5;
+}
